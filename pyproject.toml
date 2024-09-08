@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61.0", "pywin32>=306", "pywin32-ctypes>=0.2.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "pyrastr"
+version = "0.0.7"
+authors = [{name="sw4sh", email=""}]
+description = 'Пакет для взаимодействия с COM-сервером (Astra) RastrWin3'
+readme = "README.md"
+requires-python = ">=3.11"
+
